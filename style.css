@@ -49,14 +49,3 @@ footer a {
   font-weight: bold;
 }
 
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .card-container {
-      flex-direction: column;
-    }
-  
-    .card {
-      margin-bottom: 20px;
-    }
-  }
