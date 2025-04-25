@@ -49,3 +49,43 @@ footer a {
   font-weight: bold;
 }
 
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card-container {
+      flex-direction: column;
+    }
+  
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+
+  .project-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .project-list li {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+  }
+  
+  .project-list li:hover {
+    transform: scale(1.02);
+  }
+  
+  .project-list a {
+    color: #007B83;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .project-list a:hover {
+    text-decoration: underline;
+  }
